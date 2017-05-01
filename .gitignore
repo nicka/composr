@@ -1,0 +1,32 @@
+# Runtime data
+*.log
+client/dist
+logs
+pids
+tmp
+
+# IDE
+**/.idea
+
+# OS
+.DS_Store
+.tmp
+
+# Reports
+.nyc_output
+coverage
+results
+jest
+
+# Dotenv files
+*.env
+
+# Yarn
+node_modules
+.cache
+
+# Serverless
+.serverless
+
+# Wercker
+.wercker

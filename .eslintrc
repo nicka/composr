@@ -1,0 +1,27 @@
+{
+  "extends": "eslint-config-airbnb",
+  "globals": {
+    "afterAll": true,
+    "afterEach": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "describe": true,
+    "document": true,
+    "expect": true,
+    "fail": true,
+    "it": true,
+    "jest": true,
+    "localStorage": true,
+    "React": true,
+    "test": true
+  },
+  "plugins": ["react"],
+  "rules": {
+    "func-names": ["error", "never"],
+  },
+  "settings": {
+    "import/core-modules": [
+      "react-test-renderer"
+    ]
+  }
+}

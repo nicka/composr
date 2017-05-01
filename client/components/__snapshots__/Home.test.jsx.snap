@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders the component 1`] = `
+<div>
+  <h1>
+    We
+    '
+    ve been acquired by BandLab!
+  </h1>
+  <p>
+    <a
+      href="https://blog.bandlab.com/bandlab-welcomes-composr"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Read the announcement
+    </a>
+     – July 7, 2016
+  </p>
+  <p>
+    <a
+      href="/faq"
+      onClick={[Function]}
+    >
+      FAQ
+    </a>
+  </p>
+</div>
+`;
